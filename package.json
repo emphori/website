@@ -1,0 +1,33 @@
+{
+  "name": "emphori-website",
+  "scripts": {
+    "lint": "eslint src",
+    "prepare": "parcel build index.html",
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "extends": "@emphori"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emphori/emphori.github.io.git"
+  },
+  "author": "Emphori (https://emphori.studio)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emphori/emphori.github.io/issues"
+  },
+  "homepage": "https://emphori.studio",
+  "dependencies": {
+    "@chaffity/fui": "0.0.18",
+    "@emphori/fui-shapes": "0.0.4"
+  },
+  "devDependencies": {
+    "@emphori/eslint-config": "^0.1.4",
+    "eslint": "^6.4.0",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-cname": "^1.0.0"
+  },
+  "private": true
+}
