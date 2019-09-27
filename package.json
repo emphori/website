@@ -1,10 +1,10 @@
 {
   "name": "emphori-website",
   "scripts": {
+    "build": "parcel build index.html",
     "lint": "eslint src",
-    "prepare": "parcel build index.html",
     "start": "parcel index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Warn: no test specified\""
   },
   "eslintConfig": {
     "extends": "@emphori"
