@@ -13,21 +13,20 @@
     "type": "git",
     "url": "git+https://github.com/emphori/emphori.github.io.git"
   },
-  "author": "Emphori (https://emphori.studio)",
+  "author": "Emphori (https://emphori.co)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/emphori/emphori.github.io/issues"
   },
-  "homepage": "https://emphori.studio",
+  "homepage": "https://emphori.co",
   "dependencies": {
-    "@chaffity/fui": "0.0.18",
-    "@emphori/fui-shapes": "0.0.4"
+    "@emphori/fui": "^0.2.0",
+    "typeface-inter": "^3.12.0"
   },
   "devDependencies": {
-    "@emphori/eslint-config": "^0.1.4",
-    "eslint": "^6.4.0",
-    "parcel-bundler": "^1.12.3",
-    "parcel-plugin-cname": "^1.0.0"
+    "@emphori/eslint-config": "^0.1.7",
+    "eslint": "^6.8.0",
+    "parcel-bundler": "^1.12.4"
   },
   "private": true
 }
