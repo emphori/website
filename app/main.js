@@ -34,7 +34,7 @@ const headerLinks = fui.ul.styles({
 const headerAnchor = fui.span.lift(({ text, href }) =>
   fui.a
     .attr('href', href)
-    .attr('target', 'blank')
+    .attr('target', '_blank')
     .text(text)
     .styles({
       color: 'inherit',
